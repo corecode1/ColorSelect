@@ -13,3 +13,28 @@ MonoBehaviour:
   m_Name: Config
   m_EditorClassIdentifier: 
   <LogLevel>k__BackingField: -1
+  <SelectablesCount>k__BackingField: 3
+  <SpacePerSelectable>k__BackingField: 1.5
+  <ColorDescriptions>k__BackingField:
+  - Name: Green
+    Color: {r: 0.009482751, g: 0.6603774, b: 0, a: 1}
+  - Name: Yellow
+    Color: {r: 0.9056604, g: 0.887589, b: 0, a: 1}
+  - Name: Purple
+    Color: {r: 0.8773585, g: 0, b: 0.7799574, a: 1}
+  - Name: Blue
+    Color: {r: 0.081027225, g: 0, b: 0.8784314, a: 1}
+  - Name: Turquoise
+    Color: {r: 0, g: 0.7075472, b: 0.65384936, a: 1}
+  - Name: Brown
+    Color: {r: 0.2735849, g: 0.10250057, b: 0, a: 1}
+  - Name: Orange
+    Color: {r: 0.8018868, g: 0.29784364, b: 0, a: 1}
+  - Name: Black
+    Color: {r: 0, g: 0, b: 0, a: 1}
+  <WrongSelectionFxColor>k__BackingField:
+    Name: Red
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  <WrongSelectionFxDurationMs>k__BackingField: 1000
+  <AsyncWaitsFrameSkips>k__BackingField: 3
+  <ExpectedMatchesPoolSize>k__BackingField: 100
