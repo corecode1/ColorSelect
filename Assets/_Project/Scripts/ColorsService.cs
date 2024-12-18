@@ -5,7 +5,7 @@ namespace com.ColorSelect
 {
     public class ColorsService
     {
-        private static readonly int ColorProperty = Shader.PropertyToID("_BaseColor");
+        private static readonly int ColorProperty = Shader.PropertyToID("_InstanceColor");
 
         private readonly Config _config;
         private readonly Dictionary<ColorDescription, MaterialPropertyBlock> _propertyBlocks;
